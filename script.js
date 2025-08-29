@@ -17,8 +17,8 @@
   const heartIcons = document.querySelectorAll('.heart-count');
 
   
-  const callButtons = document.querySelectorAll('.call-btn');
-  const copyButtons = document.querySelectorAll('.copy-btn');
+const callButtons = document.querySelectorAll('.button button:nth-child(2)'); 
+const copyButtons = document.querySelectorAll('.button button:nth-child(1)');
 
   
   const historySection = document.querySelector('.call-history');
