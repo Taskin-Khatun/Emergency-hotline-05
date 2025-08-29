@@ -1,0 +1,95 @@
+/* responsive */
+
+@media (max-width: 576px) {
+  /* Navbar */
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .left-nav {
+    padding-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .right-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding-right: 0;
+  }
+
+  /* Hero section */
+  .hero-section {
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Grid */
+  .contact-section .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-section .col-span-9 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-section .col-span-3 {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  /* Cards */
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5,
+  .card-6,
+  .card-7,
+  .card-8,
+  .card-9 {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .button {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .button button {
+    width: 100%;
+  }
+
+  /* History section */
+  .col-span-3 .p-4 {
+    padding: 10px;
+  }
+
+  .col-span-3 button {
+    width: auto;
+    padding: 5px 10px;
+  }
+
+  /* Font*/
+  h2 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+
+  /* Image */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+

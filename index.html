@@ -7,6 +7,7 @@
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
      <script src="https://kit.fontawesome.com/ac41b47525.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="./styles/emergency.css">
 
 </head>
 <body>
@@ -22,10 +23,22 @@
         </div>
         <div class="right-nav flex justify-around gap-2 pr-[30px]">
           <div class="heart">
-            <button class="btn btn-active bg-green-100 rounded-full w-[90px] h-[40px] border-0 p-[6px]">❤️</button>
+            <button class="btn btn-active bg-green-100 rounded-full w-[70px] h-[45px] border-0 p-[6px]">
+              <div class="flex justify-between">
+                <span class="count">0</span>
+              <img class="max-w-[20px] max-h-[20px] flex justify-center text-center items-center" src="./assets/heart.png" alt="">
+              </div>
+              
+            </button>
           </div>
           <div class="coin">
-             <button class="btn btn-active bg-green-100 rounded-full w-[70px] h-[45px] border-0 p-[6px]">🪙</button>
+             <button class="btn btn-active bg-green-100 rounded-full w-[70px] h-[45px] border-0 p-[6px]">
+              <div class="flex justify-between">
+                <span class="count">100</span>
+              <img class="max-w-[20px] max-h-[20px] flex justify-center text-center items-center" src="/./assets/coin.png" alt="">
+              </div>
+              
+            </button>
 
           </div>
           <div class="copy">
@@ -62,8 +75,8 @@
 
     
     <section class="contact-section bg-green-50 pl-[30px] pr-[30px] mt-6 h-full">
-      <div class="grid grid-cols-12 gap-4">
-    <div class="col-span-9 grid grid-cols-3 gap-x-4 gap-y-4 ">
+      <div class="grid grid-cols-12 gap-4 ">
+    <div class="col-span-9 grid grid-cols-3 gap-x-4 gap-y-4  ">
 
 
       <div class="card-1 max-w-[400]] max-h-[300px] bg-white rounded-xl border border-gray-500 p-[10px]">
@@ -170,7 +183,7 @@
       <div class="card-5 max-w-[400]] max-h-[300px] bg-white rounded-xl border border-gray-500 p-[10px]">
         <div class="img flex justify-between ">
          <div class="h-[30px] w-[30px]">
-           <img src="./assets/brac.png" alt="">
+           <img src="./assets/emergency.png" alt="">
          </div>
           <div>
             <i class="fa-regular fa-heart"></i>
@@ -195,7 +208,7 @@
       <div class="card-6 max-w-[400]] max-h-[300px] bg-white rounded-xl border border-gray-500 p-[10px]">
         <div class="img flex justify-between ">
          <div class="h-[30px] w-[30px]">
-           <img src="" alt="">
+           <img src="./assets/emergency.png" alt="">
          </div>
           <div>
             <i class="fa-regular fa-heart"></i>
@@ -245,7 +258,7 @@
       <div class="card-8 max-w-[400]] max-h-[300px] bg-white rounded-xl border border-gray-500 p-[10px]">
         <div class="img flex justify-between ">
          <div class="h-[30px] w-[30px]">
-           <img src="./assets/emergency.png" alt="">
+           <img src="./assets/brac.png" alt="">
          </div>
           <div>
             <i class="fa-regular fa-heart"></i>
@@ -270,7 +283,7 @@
       <div class="card-9 max-w-[400]] max-h-[300px] bg-white rounded-xl border border-gray-500 p-[10px]">
         <div class="img flex justify-between ">
          <div class="h-[30px] w-[30px]">
-           <img src="./assets/emergency.png" alt="">
+           <img src="./assets/Bangladesh-Railway.png" alt="">
          </div>
           <div>
             <i class="fa-regular fa-heart"></i>
@@ -311,6 +324,7 @@
   
 
     </main>
+    
     
 </body>
 </html>
